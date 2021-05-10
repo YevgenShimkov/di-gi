@@ -612,6 +612,10 @@
         margin-top: 35px;
     }
     
+    .services .services_wrapper .services_item {
+        width: 100%;
+    }
+    
     .testimanial {
         padding-bottom: 80px;
     }
@@ -658,10 +662,6 @@
     .services .services_some_text {
         margin-top: 20px;
         font-size: 15px;
-    }
-
-    .services .services_wrapper .services_item {
-        width: 100%;
     }
 
     .recent_work {
