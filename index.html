@@ -16,6 +16,8 @@
     <link rel="shortcut icon" type="image/png" href="icons/favicon.PNG"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title>DiGi d.a.</title>
@@ -29,20 +31,31 @@
         </div>
     </header>
     <section class="intro">
-        <h1 class="title">МЫСЛИ <br> ГЛОБАЛЬНО</h1>
-        <div class="intro_divider"></div>
-        <div class="intro_text">Di Gі - это диджитал агентство полного цикла, направленное на самый лучший результат
-            наших клиентов в маркетинге, продажах и управлении</div>
-        <button class="intro_btm">ПОДРОБНЕЕ</button>
-        <div class="intro_pagenation">
-            <img src="icons/geometric_figures/oval.svg" alt="oval" class="pegenation_icon">
-            <img src="icons/geometric_figures/empty_oval.svg" alt="oval" class="pegenation_icon">
-            <img src="icons/geometric_figures/oval.svg" alt="oval" class="pegenation_icon">
+        <div id="owl-example" class="owl-carousel">
+            <div class="intro_carousel_slide">
+                 <h1 class="title">МЫСЛИ <br> ГЛОБАЛЬНО</h1>
+                <div class="intro_divider"></div>
+                <div class="intro_text">Di Gі - это диджитал агентство полного цикла, направленное на самый лучший результат
+                    наших клиентов в маркетинге, продажах и управлении</div>
+            </div>
+            <div class="intro_carousel_slide">
+                <h1 class="title">МЫСЛИ <br> ПОЗИТИВНО</h1>
+               <div class="intro_divider"></div>
+               <div class="intro_text">Хотелось бы напомнить: Di Gі - это диджитал агентство полного цикла, направленное на самый лучший результат</div>
+           </div>
+           <div class="intro_carousel_slide">
+            <h1 class="title">Think <br> different</h1>
+           <div class="intro_divider"></div>
+           <div class="intro_text">Для тех кто не понял с двух раз: Di Gі - это диджитал агентство полного цикла, направленное на самый лучший результат</div>
+            </div>
         </div>
-        <div class="arrow">
+        <button class="intro_btm">ПОДРОБНЕЕ</button>
+       <div class="arrow">
             <button class="arrow_btn_back"><img src="icons/geometric_figures/back.svg" alt="menu"></button>
             <button class="arrow_btn_forward"><img src="icons/geometric_figures/forward.svg" alt="menu"></button>
         </div>
+
+
     </section>
     <section class="promo">
         <div class="container">
@@ -262,13 +275,21 @@
     <section class="testimanial">
         <div class="container">
             <img src="icons/quote.svg" alt="quote symbol" class="quote_icon">
-            <h2 class="testimanial_quote">Если нужно создавать либо повышать имидж компании,
-                то <span>диджитал-маркетинг</span> является наиболее подходящим</h2>
-            <div class="testimanial_quote_author">- Маргарита Акулич</div>
-            <div class="testimanial_pagination">
-                <img src="icons/geometric_figures/testimonial_oval.svg" alt="oval" class="testimanial_oval">
-                <img src="icons/geometric_figures/testimonial_empty_oval.svg" alt="oval" class="testimanial_oval">
-                <img src="icons/geometric_figures/testimonial_oval.svg" alt="oval" class="testimanial_oval">
+            <div id="owl-example" class="owl-carousel">
+                <div class="testimanial_carousel_slide">
+                    <h2 class="testimanial_quote">Если нужно создавать либо повышать имидж компании, то <span>диджитал-маркетинг</span> является наиболее подходящим</h2>
+                <div class="testimanial_quote_author">- Маргарита Акулич</div>
+                </div>
+
+                <div class="testimanial_carousel_slide">
+                    <h2 class="testimanial_quote">Стремитесь не к успеху, а к <span>ценностям</span>, которые он дает.</h2>
+                <div class="testimanial_quote_author">- Альберт Эйнштейн</div>
+                </div>
+
+                <div class="testimanial_carousel_slide">
+                    <h2 class="testimanial_quote">Пройденный путь и есть <span>награда</span>.</h2>
+                <div class="testimanial_quote_author">- Стив Джобс</div>
+                </div>
             </div>
         </div>
     </section>
@@ -317,6 +338,9 @@
             <a href="#"><img src="icons/geometric_figures/top.svg" alt="top"></a>
         </div>
     </footer>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

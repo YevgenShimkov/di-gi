@@ -103,14 +103,6 @@ h1 {
     text-transform: uppercase;
 }
 
-.intro .intro_pagenation {
-    margin: 0 auto;
-    width: 50px;
-    display: flex;
-    margin-top: 123px;
-    justify-content: space-around;
-}
-
 .intro .arrow {
     position: absolute;
     display: flex;
@@ -612,14 +604,6 @@ h1 {
     margin-top: 30px;
 }
 
-.testimanial .testimanial_pagination {
-    margin: 0 auto;
-    width: 50px;
-    display: flex;
-    justify-content:space-around;
-    margin-top: 80px;
-}
-
 footer {
     position: relative;
     min-height: 639px;
@@ -737,3 +721,4 @@ footer .footer_bottom {
     bottom: -42px;
     right: 136px;
 }*/
+
